@@ -1,0 +1,1 @@
+web: ./bin/week_10 serve

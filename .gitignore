@@ -1,0 +1,5 @@
+.env
+coverage.out/**/*
+coverage.out
+__debug_bin/**/*
+images

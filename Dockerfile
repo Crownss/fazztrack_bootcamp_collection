@@ -1,0 +1,19 @@
+FROM golang:alpine
+
+WORKDIR /week_10
+
+ENV DBUSER = ${USER}
+ENV DBPASSWORD = ${PASSWORD}
+ENV DBNAME = ${DBNAME}
+ENV SSLMODE = ${SSLMODE}
+ENV DBHOST = ${DBHOST}
+ENV DBPORT = ${DBPORT}
+ENV DBTIMEZONE = ${DBTIMEZONE}
+
+ENV PORT = ${PORT}
+
+COPY . .
+
+RUN "go mod tidy && go build -o start"
+
+ENTRYPOINT [ "/week_10/start serve" ]
