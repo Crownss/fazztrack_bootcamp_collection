@@ -1,0 +1,17 @@
+Text palindrom
+1.mulai
+2.masukan text
+3.ulang text dari depan dan dari belakang
+4.perulangan text depan = perulangan text belakang
+5.text tersebut adalah palindrom
+6.selesai
+
+
+Reversal word
+1.mulai
+2.masukan text
+3.buat variable temp sebagai wadah kata
+4.pisahkan kata dengan spasi dan baca kata dari blkg
+5.append kata baru ke variable temp
+6.hasil output temp
+7.selesai

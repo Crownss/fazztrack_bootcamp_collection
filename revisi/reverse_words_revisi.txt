@@ -1,0 +1,13 @@
+1. mulai
+2. input text
+3. pisahkan masing2 kata pada text berdasarkan spasi menggunakan split(" ")
+4. buat variable i yg bernilai panjang text dikurang 1
+5. jika i >= 0 ?
+	jika benar
+		-buat index ke-i dari text ke variable result
+		-ubah variable i jadi i-1
+		-return ke point 4
+	jika salah
+		-continue ke point 6
+6. output result
+7. selsai

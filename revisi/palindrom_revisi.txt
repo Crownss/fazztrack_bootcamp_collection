@@ -1,0 +1,17 @@
+1. mulai
+2. masukan kata
+3. buat variable check bertipe data string
+4. buat variable i yg bernilai panjang karakter dari words dikurang 1
+5. jika i >= 0 ?
+	jika benar
+		-buat index ke-i dari words ke variable check
+		-ubah variable i menjadi i-1
+		-return ke point 4
+	jika salah
+		-continue ke point 6
+6. jika check = words ?
+	jika benar
+		-output words is palindrom
+	jika salah
+		-output words is not palindrom
+7. selesai
