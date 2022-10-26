@@ -1,0 +1,4 @@
+yarn.lock
+.env
+node_modules
+static/images/*
