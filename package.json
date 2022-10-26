@@ -1,0 +1,17 @@
+{
+  "name": "week3_express",
+  "version": "1.0.0",
+  "description": "learn expressjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "D",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
+  }
+}
