@@ -1,0 +1,4 @@
+.env
+modules/v1/users/coverage.out
+coverage.out
+__debug_bin
