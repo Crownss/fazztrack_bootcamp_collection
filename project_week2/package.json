@@ -1,0 +1,13 @@
+{
+  "name": "week2_project",
+  "version": "1.0.0",
+  "description": "nothing last forever we can change the future",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "D",
+  "license": "MIT",
+  "private": true
+}
